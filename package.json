@@ -1,10 +1,10 @@
 {
   "name": "tfjs-neuron-linear-regression",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "train": "node train.js",
+    "evaluate": "node evaluate.js"
   },
   "author": "",
   "license": "ISC",

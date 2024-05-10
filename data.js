@@ -1,4 +1,4 @@
-export const inputs = [
+export const TRAIN_INPUTS = [
   [0, 3],
   [1, 1],
   [2, 3],
@@ -257,7 +257,7 @@ export const inputs = [
   [255, 4],
 ]
 
-export const outputs = [
+export const TRAIN_OUTPUTS = [
   [3],
   [53],
   [103],
@@ -516,6 +516,6 @@ export const outputs = [
   [12756],
 ]
 
-export const testInputs = [[270, 3]]
+export const TEST_INPUTS = [[270, 3]]
 
-export const testOutputs = [[13503]]
+export const TEST_OUTPUTS = [[13503]]
